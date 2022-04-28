@@ -15,8 +15,11 @@ function firebaseFunctions({ packageJson } = {}) {
   return {
     name: 'astro-firebase',
     hooks: {
-      'astro:config:setup': ({ config }) => {
+      'astro:config:setup': ({ config, updateConfig }) => {
         config.outDir = new URL('./functions/', config.root);
+        updateConfig({
+          vite: { ssr: { external: 'firebase-functions' } }
+        });
       },
       'astro:config:done': ({ config, setAdapter }) => {
         setAdapter(getAdapter());
