@@ -1,0 +1,29 @@
+{
+  "name": "astro-firebase",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thepassle/astro-firebase.git"
+  },
+  "keywords": [
+    "astro",
+    "firebase"
+  ],
+  "author": "Pascal Schilp",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thepassle/astro-firebase/issues"
+  },
+  "homepage": "https://github.com/thepassle/astro-firebase#readme",
+  "dependencies": {
+    "@astrojs/webapi": "^0.11.1",
+    "astro": "^1.0.0-beta.19",
+    "firebase-functions": "^3.20.1"
+  }
+}
