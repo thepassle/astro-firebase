@@ -1,5 +1,7 @@
 # astro-firebase
 
+> [[demo]](https://astro-firebase.web.app/), [[source]](https://github.com/thepassle/astro-firebase-demo)
+
 Deploy your server-side rendered (SSR) Astro app to [Firebase](https://firebase.google.com/).
 
 Use this adapter in your Astro configuration file, alongside a valid deployment URL:
