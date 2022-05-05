@@ -1,6 +1,6 @@
 {
   "name": "astro-firebase",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "type": "module",
@@ -23,7 +23,7 @@
   "homepage": "https://github.com/thepassle/astro-firebase#readme",
   "dependencies": {
     "@astrojs/webapi": "^0.11.1",
-    "astro": "^1.0.0-beta.19",
+    "astro": "^1.0.0-beta.24",
     "firebase-functions": "^3.20.1"
   }
 }
